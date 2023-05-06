@@ -1,0 +1,6 @@
+{
+    "do_api_token": "DIGITAL_OCEAN_API_TOKEN",
+    "do_base_image": "almalinux-8-x64",
+    "do_datacenter": "fra1",
+    "do_ssh_key": "DIGITAL_OCEAN_SSH_KEY_ID"
+}
