@@ -1,0 +1,18 @@
+#cloud-config https://cloudinit.readthedocs.io
+groups:
+ - pxl
+
+users:
+  - default
+  - name: pxl
+    primary_group: pxl
+    groups: wheel
+    lock_passwd: false
+    shell: /bin/bash
+
+chpasswd:
+  list: |
+    pxl:PXL-W0rk5h0p
+  expire: False
+
+ssh_pwauth: True

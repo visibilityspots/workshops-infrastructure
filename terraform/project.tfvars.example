@@ -1,0 +1,5 @@
+api_token = "DIGITAL_OCEAN_API_TOKEN"
+image_id = "PACKER BUILD IMAGE ID"
+droplets_amount = "1"
+org_name = "ORG_NAME"
+domain = "DOMAIN"
