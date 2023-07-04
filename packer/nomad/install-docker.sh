@@ -9,3 +9,5 @@ systemctl start docker
 systemctl enable docker
 
 docker run --rm hello-world
+
+git clone https://github.com/docker/getting-started.git
