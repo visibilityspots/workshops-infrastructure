@@ -6,7 +6,7 @@ users:
   - default
   - name: ORG_NAME
     primary_group: ORG_NAME
-    groups: wheel
+    groups: wheel, docker
     lock_passwd: false
     shell: /bin/bash
 
