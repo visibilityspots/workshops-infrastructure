@@ -1,3 +1,3 @@
 #!/bin/bash -x
-yum upgrade -y
-yum install -y wget unzip vim bind-utils git
+dnf upgrade -y
+dnf install -y wget unzip vim bind-utils git make curl yum-utils bash-completion
