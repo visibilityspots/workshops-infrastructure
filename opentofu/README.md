@@ -22,17 +22,21 @@ cloud_config.yaml
 
 holds the information to generate a dedicted user which will be used by the participants of the workshop to access the vm through SSH
 
-## terraform
+## OpenTofu
+
+initialize the needed opentofu providers
+
+$ tofu init
 
 a makefile has been provided to quickly spin up the needed environment
 
 $ make plan
 
-will execute a `terraform plan -var-file="project.tfvars"` inside a docker container
+will execute a `tofu plan -var-file="project.tfvars"` inside a docker container
 
 $ make apply
 
-will execute a `terraform apply -var-file="project.tfvars"` inside a docker container
+will execute a `tofu apply -var-file="project.tfvars"` inside a docker container
 
 $ make destroy
-will execute a `terraform destroy -var-file="project.tfvars"` inside a docker container
+will execute a `tofu destroy -var-file="project.tfvars"` inside a docker container
